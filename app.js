@@ -1,4 +1,5 @@
 let promiseCode = require("./promise");
+let newFile = require('./fs');
 
 promiseCode.then(() => {
     console.log('Age is valid');
